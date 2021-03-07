@@ -1,1 +1,1 @@
-<?php include("./resume.html") ?>
+<?php include("./index.html") ?>
