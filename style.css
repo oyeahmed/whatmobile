@@ -5,7 +5,6 @@ body {
 }
 
 .logo {
-  background-color: rgba(56, 65, 201, 0.76);
   display: flex;
   align-items: center;
 }
@@ -23,7 +22,6 @@ body {
 }
 
 nav ul {
-  background-color: blue;
   display: flex;
   flex-wrap: wrap;
   height: 50px;
@@ -35,7 +33,6 @@ ul li {
 }
 
 .brands ul {
-  background-color: blue;
   display: flex;
   flex-wrap: wrap;
   height: 200px;
