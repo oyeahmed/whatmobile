@@ -1,0 +1,47 @@
+body {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  background-color: rgba(56, 65, 201, 0.76);
+  display: flex;
+  align-items: center;
+}
+
+.logo input {
+  margin-left: auto;
+  margin-right: 30px;
+  height: 25px;
+  width: 300px;
+}
+
+.logo img {
+  width: 40%;
+  height: 90px;
+}
+
+nav ul {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  align-items: center;
+}
+
+ul li {
+  width: 20%;
+}
+
+.brands ul {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  align-items: center;
+}
+
+.brands li {
+  width: 25%;
+}
