@@ -3,13 +3,27 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #E5E7EB;
+}
+
+header {
+  background-color: #1E40AF;
+  color: white;
 }
 
 h1 {
   font-size: 30px;
+  color: #1E40AF;
+}
+
+hr {
+  color: #1E40AF;
+  max-width: 70%;
+  border: 1px solid #1E40AF;
 }
 
 .logo {
+  padding: 10px;
   display: flex;
   align-items: center;
 }
@@ -22,8 +36,13 @@ h1 {
 }
 
 .logo img {
-  width: 40%;
-  height: 90px;
+  width: 50%;
+  height: 70px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
 }
 
 nav ul {
@@ -36,6 +55,7 @@ nav ul {
 
 ul li {
   width: 20%;
+  list-style: none;
 }
 
 .images img {
@@ -59,6 +79,7 @@ ul li {
 }
 
 .coming-soon p {
+  display: inline-block;
   width: 25%;
 }
 
@@ -99,7 +120,7 @@ ul li {
 }
 
 .disclaimer div {
-  height: 400px;
+  height: 300px;
   padding: 20px;
 }
 
@@ -112,4 +133,6 @@ ul li {
   height: 100px;
   text-align: center;
   padding-top: 20px;
+  background-color: #1E40AF;
+  color: white;
 }
